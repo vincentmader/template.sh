@@ -1,4 +1,4 @@
-run:
-	cd ./bin && ./run.sh
+example:
+	cd ./bin && ./run.sh "py"
 setup:
 	cd ./bin && ./setup.sh
