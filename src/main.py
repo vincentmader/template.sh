@@ -50,7 +50,7 @@ def pull_template_from_github(template_name, path_to_project):
 def reset_git_origin_of_cloned_template(path_to_project):
     msg = f"Removing remote \"origin\" from cloned git repository."
     print(colored(msg, "yellow"))
-    cmd = f"cd {path_to_project} && git remote remove origin"
+    cmd = f"cd \"{path_to_project}\" && git remote remove origin"
     os.system(cmd)
 
 
