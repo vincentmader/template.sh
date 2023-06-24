@@ -18,6 +18,8 @@ def get_template_name_from_cli_args():
     if len(cfg.CLI_ARGS) <= 2:
         errors.raise_error_no_template_name_specified()
     template_name = cfg.CLI_ARGS[2]
+    if template_name == "":
+        errors.raise_error_no_template_name_specified()
     if template_name not in cfg.TEMPLATES:
         errors.raise_error_invalid_template_name(template_name)
     return template_name
