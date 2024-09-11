@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# Create directories.
-  [ -d ../tmp ] || mkdir ../tmp
-  [ -d ../lib ] || mkdir ../lib
-
 # Create new virtual environment for python, if not already done.
   [ -d ../.venv ] || python3 -m virtualenv ../.venv
 
