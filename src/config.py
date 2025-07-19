@@ -10,5 +10,6 @@ TEMPLATES = {
     "py-flask":  "https://github.com/vincentmader/template_python-flask-server",
     "rocket":    "https://github.com/vincentmader/template_rust-rocket-server",
     "rocket-fs": "https://github.com/vincentmader/template_rust-rocket-file-server",
+    "typst":     "https://github.com/vincentmader/template_typst-project",
     "yew":       "https://github.com/vincentmader/template_rust-yew-client",
 }
